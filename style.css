@@ -1,0 +1,140 @@
+body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+    top: -10px;
+    background-color: rgb(146, 245, 155);
+}
+.top{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.rulo{
+    border-radius: 100%;
+    border-top: dotted;
+    border-left: dotted;
+    border-right: dotted;
+    position: relative;
+    top: 200px;
+    width: 800px;
+}
+.dark{
+    position: relative;
+    top: 240px;
+    width: 800px;
+}
+.yo{
+    position:absolute;
+    width: 25%;
+    top: 530px;
+    margin-top: 5%;
+    border-radius: 20%;
+
+}
+.name{
+    position: absolute;
+    top:810px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+h2{
+    position: absolute;
+    top: 840px;
+    text-align: center;
+}
+
+.aprendizaje1{
+    position:relative;
+    z-index:10 ;
+    width: 100px;
+    transform: rotate(-10deg);
+    top: 250px;
+    left: 25px;
+}
+.aprendizaje2{
+    position:relative;
+    z-index:10 ;
+    width: 90px;
+    transform: rotate(-10deg);
+    top: 80px;
+    left: 10px;
+}
+.aprendizaje3{
+    position:relative;
+    z-index:10 ;
+    width: 80px;
+    transform: rotate(10deg);
+    top: 100px;
+    left: 260px;
+}
+.aprendizaje4{
+    position:relative;
+    z-index:10 ;
+    width: 90px;
+    transform: rotate(-10deg);
+    top: 400px;
+    left: 170px;
+}
+.aprendizaje5{
+    position:relative;
+    z-index:10 ;
+    width: 80px;
+    transform: rotate(-10deg);
+    top: 250px;
+    left: 150px;
+}
+.aprendizaje6{
+    position:relative;
+    z-index:10 ;
+    width: 110px;
+    transform: rotate(10deg);
+    top: 390px;
+    left: -330px;
+}
+.aprendizaje7{
+    position:relative;
+    z-index:10 ;
+    width: 100px;
+    transform: rotate(-10deg);
+    top: 30px;
+    left: -230px;
+
+}
+/* .muscle{
+    position: absolute;
+    width: 600px;
+    top: 560px;
+    z-index: -1;
+} */
+.my{
+    position: absolute;
+    top: 650px;
+    width: 60%;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-top: solid;
+    background:linear-gradient(white,green)
+
+}
+h3{
+    position: absolute;
+    top: 0px;
+}
+p{
+    position: relative;
+    text-align: center;
+    width: 50%;
+    height: 220px;
+    top: 70px;
+    font-size: 18px;
+
+
+}
