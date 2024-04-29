@@ -1,108 +1,143 @@
 body{
-    width: 100%;
-    display: flex;
-    align-items: center;
+    display: block;
     justify-content: center;
-    position:absolute;
-    top: -10px;
-    background-color: rgb(146, 245, 155);
+    background-color: rgb(142, 185, 241);
 }
 .top{
-    position: absolute;
-    display: flex;
+    position: relative;
+    display:flex;
     justify-content: center;
     align-items: center;
-
+    justify-items: center;
+    border: solid;
+    width: 100%; 
+    height: 650px;
+    top: -30px;
 }
+
 .rulo{
+    position: relative;
     border-radius: 100%;
     border-top: dotted;
     border-left: dotted;
     border-right: dotted;
-    position: relative;
-    top: 200px;
-    width: 800px;
+
+    display: flex;
+    background: url("/AkumaxDDD.github.io/c5d6fd7e-7aaa-47ca-8fcd-68466f576eed.png") no-repeat;
+    background-position:top;
+    background-size: contain;
+    justify-content: center;
+    align-items: self-end;
+    width: 60%;
+    height: 650px;
 }
-.dark{
+.enredo{
+    width: 100%;
+    position: relative;
+}
+/* .dark{
     position: relative;
     top: 240px;
     width: 800px;
+} */
+.divyo{
+
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 10%;
 }
 .yo{
-    position:absolute;
-    width: 25%;
-    top: 530px;
-    margin-top: 5%;
+
+    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
     border-radius: 20%;
 
 }
+.txt{
+    bottom: 0;
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 100%;
+
+}
 .name{
-    position: absolute;
-    top:810px;
+    position: relative;
     color: rgb(0, 0, 0);
     text-align: center;
+    margin: 0;
+    bottom: 0px;
 }
-h2{
-    position: absolute;
-    top: 840px;
+.dev{
+    position: relative;
+    display: flex;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0;
+    bottom: 0px;
 }
 
 .aprendizaje1{
-    position:relative;
+    position:absolute;
     z-index:10 ;
-    width: 100px;
-    transform: rotate(-10deg);
-    top: 250px;
-    left: 25px;
+    width: 15%;
+    transform: rotate(10deg);
+    top: 10%;
+    left: 25%;
 }
 .aprendizaje2{
-    position:relative;
+    position:absolute;
     z-index:10 ;
-    width: 90px;
+    width: 13%;
     transform: rotate(-10deg);
-    top: 80px;
-    left: 10px;
+    top: 15%;
+    left: 60%;
 }
 .aprendizaje3{
-    position:relative;
+    position:absolute;
     z-index:10 ;
-    width: 80px;
+    width: 12%;
     transform: rotate(10deg);
-    top: 100px;
-    left: 260px;
+    top: 30%;
+    left: 40%;
 }
 .aprendizaje4{
-    position:relative;
+    position:absolute;
     z-index:10 ;
-    width: 90px;
+    width:15%;
     transform: rotate(-10deg);
-    top: 400px;
-    left: 170px;
+    top: 40%;
+    left: 60%;
 }
 .aprendizaje5{
-    position:relative;
+    position: absolute;
     z-index:10 ;
-    width: 80px;
+    width: 10%;
     transform: rotate(-10deg);
-    top: 250px;
-    left: 150px;
+    top: 60%;
+    left: 70%;
 }
 .aprendizaje6{
-    position:relative;
+    position:absolute;
     z-index:10 ;
-    width: 110px;
+    width: 15%;
     transform: rotate(10deg);
-    top: 390px;
-    left: -330px;
+    top: 60%;
+    left: 20%;
 }
 .aprendizaje7{
-    position:relative;
+    position:   absolute;
     z-index:10 ;
-    width: 100px;
+    width: 10%;
     transform: rotate(-10deg);
-    top: 30px;
-    left: -230px;
+    top: 40%;
+    left: 15%;
 
 }
 /* .muscle{
@@ -112,29 +147,34 @@ h2{
     z-index: -1;
 } */
 .my{
-    position: absolute;
-    top: 650px;
-    width: 60%;
-    height: 230px;
-    display: flex;
+    position: relative;
+    width: 80%;
+    display: block;
     align-items: center;
     justify-content: center;
     text-align: center;
     border-top: solid;
-    background:linear-gradient(white,green)
-
+    background:linear-gradient(white,green);
+    left: 10%;
 }
-h3{
-    position: absolute;
+.about{
+    width: 100%;
+    position: relative;
     top: 0px;
+    
 }
-p{
+.txtabout{
     position: relative;
     text-align: center;
-    width: 50%;
+    width: 100%;
     height: 220px;
-    top: 70px;
-    font-size: 18px;
+    top: 50px;
 
-
+}
+.cv{
+    position: relative;
+    top: 0;
+    width: 100%;
+    border: solid;
+    color: aliceblue;
 }
