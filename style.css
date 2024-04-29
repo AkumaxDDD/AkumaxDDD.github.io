@@ -22,7 +22,7 @@ body{
     border-left: dotted;
     border-right: dotted;
     display: flex;
-    background: url("/AkumaxDDD.github.io/c5d6fd7e-7aaa-47ca-8fcd-68466f576eed.png") no-repeat;
+    background: url("c5d6fd7e-7aaa-47ca-8fcd-68466f576eed.png") no-repeat;
     background-position:top;
     background-size: contain;
     justify-content: center;
