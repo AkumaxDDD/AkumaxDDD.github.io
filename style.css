@@ -403,6 +403,73 @@ body{
 .imgbtu{
     width: 40%;
 }
+footer{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    background-color: black;
+    bottom: 0px;
+    margin-top: 10%;
+}
+.footer{
+    color: aliceblue;
+    padding: 40px;
+    margin: 0px;
+}
+.contactimg{
+    position: relative;
+    width:50%;
+}
+.btncontact{
+    position: relative;
+    width: 10%;
+    filter: invert(100%);
+    cursor: pointer;
+    border-radius: 100%;
+    border: none;
+}
+
+.formcontact {
+    margin-top: 2%;
+    position: relative;
+    width: 40%;
+    height: auto;
+    background: linear-gradient(white,green);
+    padding: 1%;
+    border-radius: 10%;
+    left: 30%;
+}
+
+label{
+    position: relative;
+    text-align: left;
+    margin-right: 2%;
+
+}
+
+.datos{
+    text-align: left;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content:center;
+    align-content: center;
+}
+.contactame{
+    text-align: center;
+    background: url("c5d6fd7e-7aaa-47ca-8fcd-68466f576eed.png") no-repeat;
+    background-size: cover;
+    background-position:center ;
+}
+.send{
+    position: relative;
+    width: 20%;
+    border-radius: 10%;
+    border: none;
+    left: 20%;
+}
+
+
 @media (max-width: 500px){
     .top{
         position: relative;
@@ -418,7 +485,6 @@ body{
     .rulo{
         position: relative;
         border-radius: 40% 40% 0% 0%;
-
         border-right: dotted;
         display: flex;
         background: url("c5d6fd7e-7aaa-47ca-8fcd-68466f576eed.png") no-repeat;
@@ -436,6 +502,9 @@ body{
         display: flex;
         justify-content: center;
         bottom: 30%;
+    }
+    .rulo:hover{
+        filter: invert(100%);
     }
     .yo{
     
