@@ -1,8 +1,11 @@
 
 @media (min-width: 500px){
     body{
-            display: block;
-            justify-content: center;
+        font-family: "Jersey 15", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        display: block;
+        justify-content: center;
         }
 
     .top{
@@ -24,7 +27,7 @@
         border-left: dotted;
         border-right: dotted;
         display: flex;
-        background: url("c5d6fd7e-7aaa-47ca-8fcd-68466f576eed.png") no-repeat;
+        background: url("img/c5d6fd7e-7aaa-47ca-8fcd-68466f576eed.png") no-repeat;
         background-position:top;
         background-size: contain;
         justify-content: center;
@@ -42,11 +45,6 @@
         border-left: dotted;
         border-right: dotted;
     }
-    /* .dark{
-        position: relative;
-        top: 240px;
-        width: 800px;
-    } */
     .divyo{
     
         position:absolute;
@@ -70,6 +68,7 @@
         display: block;
         text-align: center;
         width: 100%;
+}
     
     }
     .name{
@@ -147,12 +146,6 @@
         left: 15%;
     
     }
-    /* .muscle{
-        position: absolute;
-        width: 600px;
-        top: 560px;
-        z-index: -1;
-    } */
     .my{
         position: relative;
         width: 80%;
@@ -168,22 +161,27 @@
         width: 100%;
         position: relative;
         top: 0px;
+        font-size: 28px;
         
     }
     .txtabout{
         position: relative;
-        text-align: center;
         width: 100%;
         height: 220px;
         top: 50px;
+        font-size: 24px;
     
     }
-    .cv{
+    #cv{
         position: relative;
         top: 0;
-        width: 100%;
+        width: 80%;
+        display: block;
         border: solid;
-    
+        font-family: "Jersey 15", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        left: 10%;
     }
     .projects{
         position: relative;
@@ -201,7 +199,6 @@
         width: 40%;
     }
 
-}
 body{
     display: block;
     justify-content: center;
@@ -226,7 +223,7 @@ body{
     border-left: dotted;
     border-right: dotted;
     display: flex;
-    background: url("c5d6fd7e-7aaa-47ca-8fcd-68466f576eed.png") no-repeat;
+    background: url("img/c5d6fd7e-7aaa-47ca-8fcd-68466f576eed.png") no-repeat;
     background-position:top;
     background-size: contain;
     justify-content: center;
@@ -244,11 +241,6 @@ body{
     border-left: dotted;
     border-right: dotted;
 }
-/* .dark{
-    position: relative;
-    top: 240px;
-    width: 800px;
-} */
 .divyo{
 
     position:absolute;
@@ -349,12 +341,6 @@ body{
     left: 15%;
 
 }
-/* .muscle{
-    position: absolute;
-    width: 600px;
-    top: 560px;
-    z-index: -1;
-} */
 .my{
     position: relative;
     width: 80%;
@@ -371,7 +357,6 @@ body{
     width: 100%;
     position: relative;
     top: 0px;
-    
 }
 .txtabout{
     position: relative;
@@ -384,9 +369,9 @@ body{
 .cv{
     position: relative;
     top: 0;
-    width: 100%;
-
-
+    width: 80%;
+    border: solid;
+    left: 10%;
 }
 .projects{
     position: relative;
@@ -457,7 +442,7 @@ label{
 }
 .contactame{
     text-align: center;
-    background: url("c5d6fd7e-7aaa-47ca-8fcd-68466f576eed.png") no-repeat;
+    background: url("img/c5d6fd7e-7aaa-47ca-8fcd-68466f576eed.png") no-repeat;
     background-size: cover;
     background-position:center ;
 }
@@ -471,6 +456,12 @@ label{
 
 
 @media (max-width: 500px){
+    body{
+        font-family: "Jersey 15", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+
+    }
     .top{
         position: relative;
         display:flex;
@@ -487,7 +478,7 @@ label{
         border-radius: 40% 40% 0% 0%;
         border-right: dotted;
         display: flex;
-        background: url("c5d6fd7e-7aaa-47ca-8fcd-68466f576eed.png") no-repeat;
+        background: url("img/c5d6fd7e-7aaa-47ca-8fcd-68466f576eed.png") no-repeat;
         background-position:top;
         background-size: contain;
         justify-content: center;
