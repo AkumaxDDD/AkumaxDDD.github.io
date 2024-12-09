@@ -1,0 +1,137 @@
+.nosotros-contenido {
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url("../../assets/footerr.jpg");
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+    background-position: calc(30% - 0px) calc(5.5% + 10px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.titulo {
+    color: #3f9f16;
+    text-align: center;
+    font-size: 3.5rem;
+    padding: 20px;
+}
+
+.nosotros-text {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    width: 80vw;
+    margin-bottom: 10vh;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Borde negro */
+    letter-spacing: 2px;
+    text-align: justify;
+    line-height: 1.6; /* Mejora la legibilidad */
+}
+
+/* Contenedor del frente */
+.frente-contenedor {
+    position: absolute;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20vw;
+    margin-bottom: 35vh;
+}
+
+.frente {
+    width: 25vw;
+    height: 55vh;
+    opacity: 0; /* Comienza invisible */
+    transform: translateX(50px); /* Desplazado hacia la derecha */
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.frente.animacion-activa {
+    opacity: 1; /* Aparece completamente */
+    transform: translateX(0); /* Posición original */
+}
+
+/* Estilos responsivos */
+@media (max-width: 1024px) {
+    .titulo {
+        font-size: 2.5rem;
+    }
+
+    .nosotros-text {
+        font-size: 1.2rem;
+        width: 90vw;
+        margin-bottom: 8vh;
+    }
+
+    .frente-contenedor {
+        margin-right: 15vw;
+        margin-bottom: 25vh;
+    }
+
+    .frente {
+        width: 35vw;
+        height: 45vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 2rem;
+    }
+    .nosotros-contenido {
+
+        background-repeat: repeat-y;
+        background-position:  0 -128%;
+        background-size: 100% 145%;
+        min-height: 100vh;
+        background-image: url("../../assets/footerr.jpg");
+        background-color: rgba(0, 0, 0, 0.6);
+        background-blend-mode: darken;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        position: relative;
+    }
+
+    .nosotros-text {
+        font-size: 1rem;
+        width: 95vw;
+        margin-bottom: 20vh;
+    }
+
+    .frente-contenedor {
+        margin-right: 10vw;
+        margin-bottom: 55vh;
+    }
+
+    .frente {
+        width: 50vw;
+        height: 40vh;
+    }
+}
+
+@media (max-width: 425px) {
+    .titulo {
+        font-size: 1.8rem;
+    }
+
+    .nosotros-text {
+        font-size: 0.8rem;
+        width: 90%;
+        margin-bottom: 5vh;
+    }
+
+    .frente-contenedor {
+        margin-bottom: 65vh;
+    }
+
+    .frente {
+        width: 60vw;
+        height: 35vh;
+    }
+}

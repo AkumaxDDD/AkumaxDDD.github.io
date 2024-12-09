@@ -1,0 +1,199 @@
+.actividades-container {
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url('../../assets/footer.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.8);
+    background-blend-mode: darken;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* Para posicionar las flechas */
+}
+
+.titulo {
+    color: #3f9f16;
+    text-align: center;
+    font-size: 3rem;
+    padding: 10px;
+}
+
+/* Flechas de navegación */
+.scroll-btn {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(63, 172, 0);
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.scroll-btn.left {
+    left: 10px;
+}
+
+.scroll-btn.right {
+    right: 10px;
+}
+
+/* Contenedor con scroll horizontal */
+.actividades-scroll {
+    margin-top: -10vh;
+    width: 80vw;
+    max-width: 80vw;
+    height: 70vh;
+    overflow-x: auto;
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 10px rgba(51, 214, 51, 0.4);
+    background-color: rgb(32, 31, 31);
+}
+
+/* Personalización de la barra de desplazamiento */
+.actividades-scroll::-webkit-scrollbar {
+    height: 10px;
+}
+
+.actividades-scroll::-webkit-scrollbar-track {
+    background: rgb(151, 145, 145);
+    border-radius: 10px;
+}
+
+.actividades-scroll::-webkit-scrollbar-thumb {
+    background: rgb(52, 61, 52);
+    border-radius: 10px;
+    border: 2px solid rgb(32, 31, 31);
+}
+
+.actividades-scroll::-webkit-scrollbar-thumb:hover {
+    background: rgb(50, 150, 50);
+}
+
+/* Estilo para las tarjetas */
+.actividades-tarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(51, 214, 51, 0.4);
+    flex-shrink: 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 300px; /* Tamaño fijo para tarjetas */
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.actividad-horarios {
+    list-style-type: none;
+    padding: 0;
+    color: rgb(226, 215, 215);
+}
+
+.actividad-titulo, .actividad-dias, .actividad-precio {
+    color: rgb(226, 215, 215);
+}
+
+.actividades-tarjeta:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(51, 214, 51, 0.6);
+}
+/* Estilos Responsivos */
+@media (max-width: 1024px) {
+
+    .titulo {
+        font-size: 3.5rem;
+    }
+
+    .scroll-btn {
+        font-size: 3.2rem;
+        padding: 7px;
+    }
+
+    .actividades-scroll {
+        width: 100vw;
+        max-height: 60vh;
+        padding: 10px;
+        gap: 5px;
+    }
+
+    .actividades-tarjeta {
+        width: 300px;
+        height: 70vh;
+        padding: 10px;
+    }
+
+    .actividad-titulo, .actividad-dias, .actividad-horarios, .actividad-precio {
+        font-size: 34px;
+    }
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+
+    .titulo {
+        font-size: 3.5rem;
+    }
+
+    .scroll-btn {
+        font-size: 3.2rem;
+        padding: 7px;
+    }
+
+    .actividades-scroll {
+        width: 100vw;
+        max-height: 70vh;
+        padding: 10px;
+        gap: 5px;
+    }
+
+    .actividades-tarjeta {
+        width: 300px;
+        height: 70vh;
+        padding: 10px;
+    }
+
+    .actividad-titulo, .actividad-dias, .actividad-horarios, .actividad-precio {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .titulo {
+        font-size: 2rem;
+    }
+
+    .scroll-btn {
+        font-size: 1rem;
+        padding: 5px;
+    }
+
+    .actividades-tarjeta {
+        width: 60vw;
+        height: 60vh;
+        padding: 4px;
+    }
+
+    
+    .actividades-scroll {
+        width: 100vw;
+        max-height: 80vh;
+        padding: 10px;
+        gap: 5px;
+    }
+
+    .actividad-titulo {
+        font-size: 1rem;
+    } 
+    .actividad-dias, .actividad-horarios, .actividad-precio {
+        font-size: 0.8rem;
+    }
+}

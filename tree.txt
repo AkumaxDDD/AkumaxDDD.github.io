@@ -1,0 +1,36 @@
+Studio5
+├── fitmanager
+│   ├── Back
+│   │   ├── node_modules
+│   │   ├── .env
+│   │   ├── actividades.js
+│   │   ├── app.js
+│   │   ├── db.js
+│   │   ├── package-lock.json
+│   │   ├── package.json
+│   │   ├── roles.js
+│   │   ├── usuarios.js
+│   ├── Front
+│       ├── Studio5
+│       │   ├── node_modules
+│       │   ├── public
+│       │   │   ├── index.html
+│       │   ├── src
+│       │       ├── assets
+│       │       │   ├── 1.jpg
+│       │       │   ├── logo.png
+│       │       │   ├── react.svg
+│       │       ├── components
+│       │       │   ├── Actividades.jsx
+│       │       │   ├── Home.css
+│       │       │   ├── Home.jsx
+│       │       │   ├── Registro.css
+│       │       │   ├── Registro.jsx
+│       │       ├── App.css
+│       │       ├── App.jsx
+│       │       ├── index.css
+│       │       ├── main.jsx
+│       ├── eslint.config.js
+│       ├── index.html
+│       ├── package-lock.json
+│       ├── package.json

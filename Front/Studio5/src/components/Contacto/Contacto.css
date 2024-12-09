@@ -1,0 +1,146 @@
+.contacto {
+  width: 100vw;
+  height: 70vh;
+  background-image: url("../../assets/footerr.jpg");
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: darken;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+}
+
+.contact-title {
+  margin-top: 20vh;
+  font-size: 3rem;
+  color: #3f9f16;
+  font-family: "Anton", sans-serif;
+  font-style: italic;
+  text-align: center;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Anton", sans-serif;
+  font-style: italic;
+  text-align: center;
+  font-size: 1rem;
+  line-height: 0;
+}
+
+.footer {
+  width: 100vw;
+  height: 35vh;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #7ed957;
+}
+
+#ubicacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.mapa {
+  width: 100%;
+  height: 15vh;
+  max-width: 50vh;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 1024px) {
+  .contact-title {
+      font-size: 6vh;
+      margin-top: 15vh;
+  }
+
+  .contact-info {
+      font-size: 1.2rem;
+  }
+
+  .footer {
+      flex-direction: column;
+      min-height: 40vh;
+      justify-content: center;
+  }
+
+  .mapa {
+      max-width: 60vw;
+      height: 20vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .contacto {
+    min-height: 70vh;
+    background-image: url("../../assets/footerr.jpg");
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+    background-position: calc(50%) calc(40% + 10px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0px;
+  }
+
+  .contact-title {
+      font-size: 5vh;
+      position: absolute;
+      margin-left: 40vw;
+      margin-top: 35vh;
+  }
+
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Anton", sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 0.7rem;
+    line-height: 1;
+  }
+
+  .footer {
+      flex-direction: column;
+      margin-bottom: -30vh;
+  }
+
+  .mapa {
+      max-width: 80vw;
+      height: 20vh;
+  }
+}
+
+@media (max-width: 425px) {
+  .contact-title {
+      font-size: 4.5vh;
+  }
+
+  .contact-info {
+      font-size: 0.9rem;
+  }
+
+  .footer {
+      flex-direction: column;
+  }
+
+  .mapa {
+      max-width: 90vw;
+      height: 18vh;
+  }
+}
